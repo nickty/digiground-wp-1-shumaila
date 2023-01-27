@@ -43,3 +43,12 @@ function register_navwalker(){
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+
+// loading fontawesome
+function wpb_load_fa() {
+ 
+    wp_enqueue_style( 'wpb-fa', get_stylesheet_directory_uri() . 'https://cdn.wpbeginner.com/fonts/css/font-awesome.min.css' );
+     
+    }
+     
+add_action( 'wp_enqueue_scripts', 'wpb_load_fa' );

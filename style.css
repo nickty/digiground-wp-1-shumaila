@@ -4,3 +4,28 @@ Author: Mizanur Rahman
 Version: 1.0.0
 Text Domain: shumaila
 **/
+
+/* adding Inter font link from google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* background-color: aqua; */
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.topnavclass {
+    height: 119px;
+}
+
+.hero {
+    background: rgba(2, 48, 71, 0.1);
+    border-radius: 18px;
+    padding: 100px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
