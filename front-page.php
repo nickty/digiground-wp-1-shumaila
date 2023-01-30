@@ -173,6 +173,159 @@
   </div>
 </section>
 
+<section class="award">
+  <div class="container">
+    <h2>Awards & Recognition</h2>
+    <p>Nibh lacus quam non non neque proin vel in odio. Ac elementum odio mattis imperdiet tincidunt tellus purus.</p>
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Winner</b>
+          <h3>2022 Best in Practice Award, Australian Institute of Architects</h3>
+          <span>November 2022</span>
+          <p>Through raising awareness within the industry as to what ‘best practice’ looks like, the Prize promotes the
+            sharing of knowledge and initiatives, and space for development and implementation in a collegiate industry.
+            The Best in Practice Prize is run bi-annually, and the theme for 2022 is RE-ENGAGEMENT > Re-connecting >
+            Re-Thinking > Re-Framing.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>2020 Best in Practice Award, Australian Institute of Architects</h3>
+          <span>November 2022</span>
+          <p>The Best in Practice Prize recognises excellence in practice, with a focus on the development of supportive
+            and inclusive workplaces. For 2020, the award focused heavily on culture in the areas of Continuity,
+            Communication and Connection during the Covid-19 pandemic.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>2019 Jostle International Awards - Navigating Change</h3>
+          <span>November 2022</span>
+          <p>This award recognises a leader that has best participated on their Jostle intranet to help support and
+            achieve organisational goals. https://www.jostle.me/https://www.jostle.me/</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>2015 Telstra Business Women's Awards – Government and Academia</h3>
+          <span>October 2015</span>
+          <p>Volutpat pharetra lacus gravida amet pharetra. Molestie sociis nibh aenean fringilla faucibus urna morbi
+            vulputate. Ultricies dolor.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>Young Manager of the Year, Australian Institute of Management - Excellence Awards</h3>
+          <span>November 2022</span>
+          <p>Volutpat pharetra lacus gravida amet pharetra. Molestie sociis nibh aenean fringilla faucibus urna morbi
+            vulputate. Ultricies dolor.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>Young Business Executive, NSW Business Chamber - Sydney City Business Awards</h3>
+          <span>July 2015</span>
+          <p>Volutpat pharetra lacus gravida amet pharetra. Molestie sociis nibh aenean fringilla faucibus urna morbi
+            vulputate. Ultricies dolor.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>Finalist - AIM 30 Under 30, Australian Institute of Management</h3>
+          <span>November 2022</span>
+          <p>Volutpat pharetra lacus gravida amet pharetra. Molestie sociis nibh aenean fringilla faucibus urna morbi
+            vulputate. Ultricies dolor.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-sm-2">
+        <div class="award-box">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/award.png">
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="award-content">
+          <b>Finalist</b>
+          <h3>Young Manager of the Year, Australian Institute of Management - Excellence Awards</h3>
+          <span>October 2014</span>
+          <p>Volutpat pharetra lacus gravida amet pharetra. Molestie sociis nibh aenean fringilla faucibus urna morbi
+            vulputate. Ultricies dolor.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <?php get_footer(); ?>
