@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,38 +9,52 @@
     <link rel="stylesheet" href=
 "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" /> -->
 
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+
+
     <title>I am Shumaila Ali</title>
     <?php wp_head(); ?>
 </head>
+
 <body>
-    
-<nav class="navbar navbar-expand-md navbar-light bg-light topnavclass" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" /></a>
-        <?php
-        wp_nav_menu( array(
-            'theme_location'    => 'primary_menu',
-            'depth'             => 1,
-            'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
-            'container_id'      => 'bs-example-navbar-collapse-1',
-            'menu_class'        => 'nav navbar-nav mymenuclass',
-            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-            'walker'            => new WP_Bootstrap_Navwalker(),
-        ) );
-        ?>
-      <!-- <img src="http://localhost/alexgross/wp-content/uploads/2022/12/homelogo.png" alt="" />   -->
-      <div>
-      
-      <li>Facebook</li>
-      <li>LinkedIn</li>
-      <li>Instagram</li>
-      </div>
-     
-    </div>
-    
-</nav>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light topnavclass" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1"
+                aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo"
+                    src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" /></a>
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'primary_menu',
+                    'depth' => 1,
+                    'container' => 'div',
+                    'container_class' => 'collapse navbar-collapse',
+                    'container_id' => 'bs-example-navbar-collapse-1',
+                    'menu_class' => 'nav navbar-nav mymenuclass',
+                    'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker' => new WP_Bootstrap_Navwalker(),
+                )
+            );
+            ?>
+            <!-- <img src="http://localhost/alexgross/wp-content/uploads/2022/12/homelogo.png" alt="" />   -->
+            <div>
+
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <li>Facebook</li>
+                <li>LinkedIn</li>
+                <li>Instagram</li>
+            </div>
+
+        </div>
+
+    </nav>

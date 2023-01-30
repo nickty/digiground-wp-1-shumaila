@@ -83,3 +83,36 @@ align-items: center;
     flex-direction: column;
     min-height: 200px;
 }
+
+/* footer style */
+.inner-footer {
+    padding: 90px 55px;
+    text-align: center;
+}
+.footer-logo {
+    margin-bottom: 47px;
+}
+
+.footer-text {
+    width: 526px;
+    text-align: center;
+    margin: auto;
+}
+.myfootermenuclass {
+    list-style-type: none;
+    display: flex;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+.myfootermenuclass li a {
+    text-decoration: none;
+}
+
+.footer-divider hr{
+    width: 700px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.1);;
+}
