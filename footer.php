@@ -10,7 +10,20 @@
                     purus.
                 </p>
             </div>
-            <div class="social-icons"></div>
+            <div class="social-icons text-center">
+                <div class="footer-icons">
+
+
+
+                    <img class="fontawesomef"
+                        src="<?php bloginfo('template_directory'); ?>/images/icons/svg/facebook-f.svg" alt="" />
+                    <img class="fontawesomein"
+                        src="<?php bloginfo('template_directory'); ?>/images/icons/svg/linkedin-in.svg" alt="" />
+                    <img class="fontawesomeins"
+                        src="<?php bloginfo('template_directory'); ?>/images/icons/svg/instagram.svg" alt="" />
+
+                </div>
+            </div>
             <div class="footer-divider">
                 <hr />
             </div>

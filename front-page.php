@@ -7,7 +7,7 @@
     <div class="hero-text">
       <div class="body-text">
         <h1>
-          Hello,
+          Hello, <br>
           I’m Shumaila Ali
         </h1>
         <p>

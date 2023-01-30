@@ -11,10 +11,44 @@ Text Domain: shumaila
 body {
     font-family: 'Inter', sans-serif;
     /* background-color: aqua; */
+    color: #666666;
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
+}
+.mymenuclass {
+    font-size: 16px;
+    width: 635px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+.mymenuclass .active a {
+    color: #023047;
+    
+}
+
+.header-icons {
+    display: flex;
+    width: 116px;
+    justify-content: space-between;
+}
+
+/* font awesome icons */
+.fontawesomef {
+    width: 12px;
+    height: 21px;
+}
+.fontawesomein {
+    width: 16px;
+    height: 21px;
+}
+.fontawesomeins {
+    width: 16px;
+    height: 21px;
 }
 
 .topnavclass {
@@ -28,6 +62,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.body-text h1 {
+    font-weight: 900;
+    font-size: 59px;
+    color: #023047;
+    line-height: 80px;
+}
+
+.body-text p {
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    
 }
 
 .footer {
@@ -109,10 +156,24 @@ align-items: center;
 }
 .myfootermenuclass li a {
     text-decoration: none;
+    color: #023047;
 }
 
+.footer-divider {
+    margin-top: 25px;
+}
 .footer-divider hr{
     width: 700px;
     margin: auto;
-    color: rgba(0, 0, 0, 0.1);;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-icons {
+    margin: auto;
+    display: flex;
+    width: 116px;
+    justify-content: space-between;
+}
+.social-icons {
+    margin-bottom: 47px;
 }

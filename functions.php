@@ -33,9 +33,20 @@ if (!function_exists('mytheme_register_nav_menu')) {
             array(
                 'primary_menu' => __('Primary Menu', 'text_domain'),
                 'footer_menu' => __('Footer Menu', 'text_domain'),
-            ));
+            )
+        );
     }
     add_action('after_setup_theme', 'mytheme_register_nav_menu', 0);
+}
+
+add_filter('nav_menu_css_class', 'special_nav_class', 10, 2);
+
+function special_nav_class($classes, $item)
+{
+    if (in_array('current-menu-item', $classes)) {
+        $classes[] = 'active ';
+    }
+    return $classes;
 }
 
 /**
@@ -47,21 +58,12 @@ function register_navwalker()
 }
 add_action('after_setup_theme', 'register_navwalker');
 
-// loading fontawesome
-function wpb_load_fa()
-{
 
-    wp_enqueue_style('wpb-fa', get_stylesheet_directory_uri() . 'https://cdn.wpbeginner.com/fonts/css/font-awesome.min.css');
-
-}
-
-add_action('wp_enqueue_scripts', 'wpb_load_fa');
 
 // adding font awesome
 
-add_action('wp_enqueue_scripts', 'add_font_awesome');
-
-function add_font_awesome()
+add_action('wp_enqueue_scripts', 'crunchify_enqueue_fontawesome');
+function crunchify_enqueue_fontawesome()
 {
-    wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+    wp_enqueue_style('crunchify-font-awesome', 'https://use.fontawesome.com/releases/v5.14.0/css/all.css?ver=5.7');
 }

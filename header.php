@@ -5,14 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href=
-"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" /> -->
-
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
-        type='text/css'>
-
 
 
     <title>I am Shumaila Ali</title>
@@ -46,13 +38,17 @@
             );
             ?>
             <!-- <img src="http://localhost/alexgross/wp-content/uploads/2022/12/homelogo.png" alt="" />   -->
-            <div>
+            <div class="header-icons">
 
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <li>Facebook</li>
-                <li>LinkedIn</li>
-                <li>Instagram</li>
+
+
+                <img class="fontawesomef" src="<?php bloginfo('template_directory'); ?>/images/icons/svg/facebook-f.svg"
+                    alt="" />
+                <img class="fontawesomein"
+                    src="<?php bloginfo('template_directory'); ?>/images/icons/svg/linkedin-in.svg" alt="" />
+                <img class="fontawesomeins"
+                    src="<?php bloginfo('template_directory'); ?>/images/icons/svg/instagram.svg" alt="" />
+
             </div>
 
         </div>
