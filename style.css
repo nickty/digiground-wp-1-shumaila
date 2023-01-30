@@ -29,3 +29,40 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.footer {
+    background: rgba(2, 48, 71, 0.1);
+}
+
+.about {
+    font-family: 'Inter';
+    padding: 125px;
+    text-align: center;
+}
+.about h3 {
+    margin-bottom: 25px;
+}
+
+.consulting {
+    background: rgba(2, 48, 71, 0.1);
+}
+
+.consulting-context {
+    padding: 125px 0;
+}
+
+.consulting-context h2 {
+    margin-bottom: 15px;
+}
+
+.consulting-context>p{
+    margin-bottom: 60px;
+}
+
+.consulting-context img {
+    margin-bottom: 20px;
+}
+
+.consulting-context h3 {
+    margin-bottom: 11px;
+}
